@@ -133,7 +133,7 @@ function App() {
           </div> 
           <input type="checkbox" onChange={(e) => setCheckbox(e.target.value)} value={checkbox}></input>
           <label> Jeg godtar <a href="">databehandlingsavtalen</a></label>
-          <button data-testid="button">Registrer</button>
+          <button data-testid="button" style={{backgroundColor:'green'}}>Registrer</button>
           {formError && <p className="error" data-testid="errormsg">{formError}</p>}
           {/* <p>Fornavn {fornavn}</p>
           <p>Etternavn {etternavn}</p>
